@@ -1,12 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "create_electrified",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Create Electrified",
+  "description": "Electrifying the Create Mod.",
   "authors": [
-    "Me!"
+    "Avian Games",
+    "Vykonn",
+    "Aestr"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +21,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "dev.avian_games.create_electrified.Create_Electrified"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "create_electrified.mixins.json"
   ],
 
   "depends": {
